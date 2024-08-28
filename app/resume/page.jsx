@@ -59,7 +59,7 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description: "I am a dedicated and versatile frontend stack developer with a passion for creating efficient and user-friendly web applications. With 1 years of professional experience, I have worked with a variety of technologies, including PHP, Wordpress, React, Next.js, Node.js, MySQL, PostgreSQL, and Redis,... My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.",
+  description: "I am a passionate web developer with expertise in HTML, CSS, JavaScript, React, and Next.js. My focus is on creating responsive, user-friendly websites using frameworks like Material-UI and Tailwind CSS. I combine technical skills with a keen eye for design to build visually appealing, high-performance websites. My experience includes successfully completing complex projects that showcase my ability to integrate front-end design with back-end functionality, ensuring cross-browser compatibility and a seamless user experience. I am committed to continuous learning and delivering exceptional web solutions.",
   items: [
     {
       company: "Freelancer",
@@ -206,10 +206,10 @@ const Resume = () => {
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0
           gap-6 "
           >
+            <TabsTrigger value="about">About Me</TabsTrigger>
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About Me</TabsTrigger>
           </TabsList>
           {/* content */}
           <div className="min-h-[70vh] w-full">

@@ -6,8 +6,7 @@ import { useState } from 'react';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
-
-
+//* IMPORT
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Textarea } from '@/components/ui/textarea';
@@ -117,7 +116,7 @@ const ContactPage = () => {
               <Textarea name="message" className="h-[200px]" placeholder="Type message here." onChange={handleChange} />
 
               {/* button */}
-              <Button size="md" className="max-w-40">Send message</Button>
+              <Button size="md" className="max-w-40 h-14">Send message</Button>
             </form>
           </div>
           {/* info */}
