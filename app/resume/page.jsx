@@ -62,7 +62,7 @@ const experience = {
   description: "I am a passionate web developer with expertise in HTML, CSS, JavaScript, React, and Next.js. My focus is on creating responsive, user-friendly websites using frameworks like Material-UI and Tailwind CSS. I combine technical skills with a keen eye for design to build visually appealing, high-performance websites. My experience includes successfully completing complex projects that showcase my ability to integrate front-end design with back-end functionality, ensuring cross-browser compatibility and a seamless user experience. I am committed to continuous learning and delivering exceptional web solutions.",
   items: [
     {
-      company: "Freelancer",
+      company: "Seekers-com",
       position: "Mobile App Mosav Shop Developer - Frontend",
       duration: "2023 - Present"
     },
